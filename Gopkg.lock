@@ -2,15 +2,35 @@
 
 
 [[projects]]
-  branch = "master"
-  digest = "1:a6ee88533c6554216567f148bc4558f0bbd217c9fb73483936a26ba8a753024b"
+  digest = "1:a24f42dc2fd95efa71941644f5da2e0af10d2f408cb313126ad0f7779773e25a"
   name = "github.com/chrisjpalmer/monorepotest"
   packages = [
     "pkg1",
     "pkg2",
   ]
   pruneopts = "UT"
-  revision = "20ff091a276b4987e996f055c629d3e107cfc293"
+  revision = "974b8e4429705e7ef02351a104f11dad387f664b"
+  version = "1.0.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:aff61b46ef326e4a211e69245a0ca03dee77f850b6221d3fd0f5bc9208591734"
+  name = "github.com/google/logger"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "324a7c096a0d1041e2766b42187908af70e4f723"
+
+[[projects]]
+  branch = "master"
+  digest = "1:4ae8cee446ef42dba82f41773cbfede8a2c7eb9a2ecde14f7347521ef85f1551"
+  name = "golang.org/x/sys"
+  packages = [
+    "windows",
+    "windows/registry",
+    "windows/svc/eventlog",
+  ]
+  pruneopts = "UT"
+  revision = "41f3e6584952bb034a481797859f6ab34b6803bd"
 
 [solve-meta]
   analyzer-name = "dep"
